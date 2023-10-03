@@ -1,0 +1,41 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../imagens/wall.png");
+  height: 100vh;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 6rem;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border-bottom: 1rem solid #ffd700;
+}
+.menu-tempo h2:nth-child(2),
+.menu-pontos h2:nth-child(2) {
+  margin-top: 1rem;
+}
+.menu-vidas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.painel {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quadrado-linha {
+  width: 12rem;
+  height: 12rem;
+  border: 1px solid #000;
+  background-color: #00ffff;
+}
+.inimigo {
+  background-image: url("../imagens/ralph.png");
+  background-size: cover;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detona Ralf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/estilo/reset.css" />
+    <link rel="stylesheet" href="./src/estilo/main.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/imagens/favicon.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="menu">
+        <div class="menu-tempo">
+          <h2 style="color: red">Tempo</h2>
+          <h2 id="tempo">15</h2>
+        </div>
+        <div class="menu-pontos">
+          <h2 style="color: red">Pontos</h2>
+          <h2 id="pontos">0</h2>
+        </div>
+        <div class="menu-vidas">
+          <img
+            src="./src/imagens/player.png"
+            alt="Player"
+            style="width: 60px"
+          />
+          <h2>X<span id="vida">3</span></h2>
+        </div>
+      </div>
+      <div class="painel">
+        <div class="painel-linha">
+          <div class="quadrado-linha" id="1"></div>
+          <div class="quadrado-linha" id="2"></div>
+          <div class="quadrado-linha" id="3"></div>
+        </div>
+        <div class="painel-linha">
+          <div class="quadrado-linha" id="4"></div>
+          <div class="quadrado-linha" id="5"></div>
+          <div class="quadrado-linha" id="6"></div>
+        </div>
+        <div class="painel-linha">
+          <div class="quadrado-linha" id="7"></div>
+          <div class="quadrado-linha" id="8"></div>
+          <div class="quadrado-linha" id="9"></div>
+        </div>
+      </div>
+    </div>
+    <script defer src="./src/script/engine.js"></script>
+  </body>
+</html>
